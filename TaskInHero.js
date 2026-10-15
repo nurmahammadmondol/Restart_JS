@@ -69,3 +69,13 @@ for(let word of words){
     result =result+word;
 }
 console.log(result)
+
+// Task 4 : (Hard) Reverse the words of a sentence. Only the position of the word will be reversed. check out the output
+
+const statement = 'I am a hard working person';
+const word =statement.split(' ');
+const revWord=word.reverse();
+const result2=revWord.join(' ')
+
+console.log(result2)
+
