@@ -13,8 +13,10 @@ function finalScore (omr) {
     if(allMcq === 100){
        const rightMark= rightMcq * 1;
        const wrongMark= wrongMcq * 0.5;
-       const finalMarks=rightMark - wrongMark;
-       console.log(finalMarks)
+       const Marks=rightMark - wrongMark;
+       const finalMarks= Math.round(Marks)
+
+       return(finalMarks)
 
     }
     else{
@@ -31,4 +33,5 @@ const marks=  {
 }
 
 const result=finalScore(marks)
+console.log(result);
 
