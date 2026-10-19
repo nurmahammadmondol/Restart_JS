@@ -117,8 +117,4 @@ console.log(input.value);
 - [ ] To-Do List তৈরি।
 - [ ] Input থেকে নাম নিয়ে দেখানো।
 
-## শেষ কথা
 
-DOM শেখার মূল বিষয়:
-
-**Select → Change → Style → Event → Create → Remove**
