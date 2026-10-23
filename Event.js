@@ -1,5 +1,3 @@
-console.log('nurrrrr')
-
 
 
 function addSomeData(){

@@ -1,25 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event</title>
 
-  
-</head>
-<body>
 
+    <style>
+        #userData{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        #userData > div{
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 5px;
+
+        }
+    </style>
+  </head>
+  <body>
     <button onclick="addSomeData()">Add SOme Data</button>
 
     <button id="btn-red">BG_Red</button>
     <button id="btn-green">BG_Green</button>
     <button id="btn-gold">BG_gold</button>
     <button id="btn-yollow">BG_yollow</button>
- 
-    
+
+    <!-- User Data  -->
+    <section id="userData">
 
 
+      
+    </section>
 
+    <script src="fatch.js"></script>
     <script src="Event.js"></script>
-</body>
+  </body>
 </html>
